@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name "AOD4184A")(type "KiCad")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/AOD4184A.kicad_sym")(options "")(descr "MOSFET fans"))
+  (lib (name "CMT-7525-80-SMT-TR")(type "KiCad")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/CMT-7525-80-SMT-TR.kicad_sym")(options "")(descr "SMD Buzzer"))
+  (lib (name "TLV76701DGNR")(type "Legacy")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/TLV76701DGNR.2022-12-26_15-52-57.lib")(options "")(descr "Linear Voltage Regulator"))
+  (lib (name "EG1257")(type "Legacy")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/EG1257.2022-12-30_16-18-00.lib")(options "")(descr "switch"))
+  (lib (name "1N4148W")(type "KiCad")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/1N4148W.kicad_sym")(options "")(descr "diodo 1N4148 SMD"))
+  (lib (name "ERJ3EKF1001V")(type "KiCad")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/ERJ3EKF1001V.kicad_sym")(options "")(descr "resistencia 1K"))
+  (lib (name "CL21A106KOQNNNE")(type "Legacy")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/CL21A106KOQNNNE.2023-01-01_12-24-33.lib")(options "")(descr "capacitor 10uF"))
+  (lib (name "CDBW140-G")(type "Legacy")(uri "D:/Users/myria/Documents/KiCad/6.0/symbols/CDBW140-G.2023-01-04_20-07-59.lib")(options "")(descr "SMD Schottky Barrier Diode CDBW140-G"))
+)
