@@ -2402,10 +2402,6 @@
     (uuid ff7107c8-cf61-4815-b42f-4bd1f21210e5)
   )
 
-  (text "Revisar los C que deben tener polaridad y porqué" (at 21.59 167.64 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5cad11cc-753e-4e6b-8c8b-e6375a5fbdc3)
-  )
   (text "Fan control" (at 19.685 22.225 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0fb7063-613f-4999-8bb4-3cde90727312)
@@ -2416,7 +2412,7 @@
     (uuid ce192220-b345-4532-9c50-ad7897c965f3)
   )
   (text "To match ~240uA for the 12V LEDs, then 20k for 5V and 13.7k for 3.3V would produce more uniform brightness\n"
-    (at 21.59 171.45 0)
+    (at 21.59 167.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e710e006-f023-418f-be15-8bf2ce5d74cd)
   )
