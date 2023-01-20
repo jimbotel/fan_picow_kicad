@@ -380,12 +380,9 @@
         "name": "Power",
         "nets": [
           "/12V",
-          "/12VFAN",
           "/3V3",
           "/5V",
           "/VSYS",
-          "/conectores/NCLOSED",
-          "/conectores/NOPEN",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
