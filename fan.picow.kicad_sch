@@ -1894,6 +1894,11 @@
   (no_connect (at 160.02 30.48) (uuid d5537d3b-effb-45b2-bbc8-2d0d0336ab98))
   (no_connect (at 160.02 33.02) (uuid d5537d3b-effb-45b2-bbc8-2d0d0336ab99))
 
+  (polyline (pts (xy 238.125 136.525) (xy 208.915 136.525))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0154b8d5-9d09-40a9-8dbd-6292702d86f0)
+  )
+
   (wire (pts (xy 204.47 58.42) (xy 195.58 58.42))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 024a609a-5a1f-4a84-b293-ccd10120d104)
@@ -2097,6 +2102,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5e94da0d-ff14-4c3f-adcb-c135b0c84129)
   )
+  (polyline (pts (xy 208.915 102.87) (xy 208.915 136.525))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5f73e915-a545-40dd-b631-1acd520d014f)
+  )
+
   (wire (pts (xy 34.925 47.625) (xy 37.465 47.625))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 63ed36de-6774-4f39-a8dd-2c85de8776b9)
@@ -2105,6 +2115,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 641acb30-b9fb-47ff-82d2-88e2be57e9a7)
   )
+  (polyline (pts (xy 208.915 102.87) (xy 238.125 102.87))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 666155e4-a131-4889-8ef6-7d98b1eecf19)
+  )
+
   (wire (pts (xy 65.405 60.325) (xy 65.405 62.865))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6b296816-18e0-4d90-af57-ccf7059f07ad)
@@ -2336,6 +2351,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d8bf8904-6514-4817-9430-6ecd6d71ca07)
   )
+  (polyline (pts (xy 238.125 102.87) (xy 238.125 136.525))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid dd0c6ac3-65b7-47f2-a28f-e19934d8e8d9)
+  )
+
   (wire (pts (xy 220.98 57.785) (xy 220.98 60.325))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ddad443d-bf6b-47fd-9147-737b8fe2c8a5)
@@ -2402,6 +2422,10 @@
     (uuid ff7107c8-cf61-4815-b42f-4bd1f21210e5)
   )
 
+  (text "Mounting holes" (at 210.185 105.41 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 87dd469a-f687-4f8a-a0d0-eba56612d010)
+  )
   (text "Fan control" (at 19.685 22.225 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0fb7063-613f-4999-8bb4-3cde90727312)
