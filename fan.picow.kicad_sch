@@ -2540,7 +2540,7 @@
     (property "Reference" "Q3" (id 0) (at 64.77 132.0799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "IRLML9301TRPBF" (id 1) (at 62.865 137.795 0)
+    (property "Value" "IRLML9301" (id 1) (at 62.865 137.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "footprints descargados:IRLML9301TRPBF.SOT95P237X112-3N" (id 2) (at 59.055 133.35 0)
@@ -2776,7 +2776,7 @@
     (property "Reference" "LS1" (id 0) (at 166.37 133.985 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "CMT-7525-80-SMT-TR" (id 1) (at 163.195 142.875 90)
+    (property "Value" "CMT-7525" (id 1) (at 163.195 142.875 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "footprints descargados:XDCR_CMT-7525-80-SMT-TR" (id 2) (at 156.845 133.35 0)
@@ -2796,6 +2796,9 @@
     )
     (property "MAXIMUM_PACKAGE_HEIGHT" "2.50mm" (id 7) (at 156.845 133.35 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Componente" "CMT-7525-80-SMT-TR" (id 8) (at 156.845 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "N" (uuid da4843d6-49c6-4e81-9f3b-48bf01d91796))
     (pin "P" (uuid 29dfd1f7-d662-4edd-8ddf-e5a3ebdc30a1))
@@ -3600,7 +3603,7 @@
     (property "Reference" "D9" (id 0) (at 255.905 29.21 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "CDBW140-G" (id 1) (at 255.905 36.195 0)
+    (property "Value" "CDBW140" (id 1) (at 255.905 36.195 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 255.905 42.164 0)
@@ -3786,7 +3789,7 @@
       (reference "D1") (unit 1) (value "LED 12VF") (footprint "digikey-footprints:0805")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/8d5ca4e5-a782-47d9-9971-0676e6a8b021"
-      (reference "D2") (unit 1) (value "CDBW140-G") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D2") (unit 1) (value "CDBW140") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/bf20e1da-f16a-481e-8566-f9b46e75b06d"
       (reference "D4") (unit 1) (value "LED 5V") (footprint "digikey-footprints:0805")
@@ -3798,7 +3801,7 @@
       (reference "D8") (unit 1) (value "ES1D") (footprint "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/fcc4f7b1-a256-4edb-9e34-1c38fb03135b"
-      (reference "D9") (unit 1) (value "CDBW140-G") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D9") (unit 1) (value "CDBW140") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/5122c57c-28dc-41b6-be93-119eb3e6ad19"
       (reference "D10") (unit 1) (value "LED 12V") (footprint "digikey-footprints:0805")
@@ -3819,7 +3822,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/d7641a10-1696-479f-8ad9-c72747f4c20a"
-      (reference "J1") (unit 1) (value "12v Input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "12v Input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/1790f650-74c6-4ab3-b8d8-2a95be562786"
       (reference "J2") (unit 1) (value "Fan1") (footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
@@ -3834,10 +3837,10 @@
       (reference "J5") (unit 1) (value "Fan3") (footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/8b6c6ee4-7500-4b7b-b294-9ce1b523ab35"
-      (reference "J7") (unit 1) (value "OLED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "OLED") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/bdd943df-b6d2-4f3d-b75e-b8fb7a4fe4f2"
-      (reference "J12") (unit 1) (value "Temp DHT22") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "J12") (unit 1) (value "Temp") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal")
     )
     (path "/3c7d9133-dd36-448d-b86a-9f077007464b"
       (reference "JP1") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -3846,7 +3849,7 @@
       (reference "L1") (unit 1) (value "300uH") (footprint "footprints descargados:DR127-331_INDM125125X800N")
     )
     (path "/3fe79dfd-60d0-4881-a73e-44d6645bbde6"
-      (reference "LS1") (unit 1) (value "CMT-7525-80-SMT-TR") (footprint "footprints descargados:XDCR_CMT-7525-80-SMT-TR")
+      (reference "LS1") (unit 1) (value "CMT-7525") (footprint "footprints descargados:XDCR_CMT-7525-80-SMT-TR")
     )
     (path "/24494c09-85e2-4bd7-849b-21573dc74f02"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3855,7 +3858,7 @@
       (reference "Q2") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/096dc07c-95db-4ea9-b8b6-ac23b1984d17"
-      (reference "Q3") (unit 1) (value "IRLML9301TRPBF") (footprint "footprints descargados:IRLML9301TRPBF.SOT95P237X112-3N")
+      (reference "Q3") (unit 1) (value "IRLML9301") (footprint "footprints descargados:IRLML9301TRPBF.SOT95P237X112-3N")
     )
     (path "/608007d4-b490-49e4-991d-4b210c673027"
       (reference "R1") (unit 1) (value "49.9K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -3939,7 +3942,7 @@
       (reference "U1") (unit 1) (value "PicoW") (footprint "RPi_Pico:RPi_PicoW_SMD_TH")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/8b0097ff-621f-47b0-bbc1-c49bbd9da7e6"
-      (reference "U3") (unit 1) (value "LM2575-5.0BU") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+      (reference "U3") (unit 1) (value "LM2575") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
   )
 )

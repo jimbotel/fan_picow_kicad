@@ -1266,6 +1266,7 @@
     (at 171.123 88.138)
     (descr "TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
     (tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
+    (property "Component" "LM2575-5.0BU")
     (property "Sheetfile" "File: conectores.kicad_sch")
     (property "Sheetname" "conectores")
     (path "/86e12817-80ac-414c-aa23-eca04293b568/8b0097ff-621f-47b0-bbc1-c49bbd9da7e6")
@@ -1410,6 +1411,7 @@
   (footprint "footprints descargados:XDCR_CMT-7525-80-SMT-TR" (layer "F.Cu")
     (tedit 63A6C79B) (tstamp 600d429d-4870-4825-ad8d-5000e54961e5)
     (at 129.286 102.616 90)
+    (property "Componente" "CMT-7525-80-SMT-TR")
     (property "MANUFACTURER" "CUI Inc.")
     (property "MAXIMUM_PACKAGE_HEIGHT" "2.50mm")
     (property "PARTREV" "N/A")
@@ -3474,6 +3476,7 @@
     (at 161.544 76.454 90)
     (descr "D_SOD-123F")
     (tags "D_SOD-123F")
+    (property "Componente" "CDBW140-G")
     (property "Sheetfile" "File: conectores.kicad_sch")
     (property "Sheetname" "conectores")
     (path "/86e12817-80ac-414c-aa23-eca04293b568/8d5ca4e5-a782-47d9-9971-0676e6a8b021")
@@ -3941,7 +3944,6 @@
     (polygon
       (pts
         (xy 190.5 119.38)
-        (xy 104.14 119.38)
         (xy 104.14 119.38)
         (xy 93.98 119.38)
         (xy 93.98 49.276)
