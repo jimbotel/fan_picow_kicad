@@ -1705,6 +1705,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 125dfcf6-74af-44a2-81d4-697b8e8ae05b)
   )
+  (polyline (pts (xy 95.885 162.56) (xy 19.685 162.56))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1473d508-cd3c-458c-b212-2255ba9fd4a4)
+  )
 
   (wire (pts (xy 230.505 153.035) (xy 236.22 153.035))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1830,6 +1834,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3c37c2a7-c2a5-40af-ae5d-b2d79f3becb8)
   )
+  (polyline (pts (xy 95.885 106.045) (xy 95.885 162.56))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3c866fee-2018-485f-b00b-2e6b8faf9860)
+  )
+
   (wire (pts (xy 150.495 127) (xy 150.495 128.905))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 453973f0-8ed1-4cfe-aafb-109924fde618)
@@ -1894,6 +1903,10 @@
   (polyline (pts (xy 251.46 123.19) (xy 251.46 156.845))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5f73e915-a545-40dd-b631-1acd520d014f)
+  )
+  (polyline (pts (xy 19.685 106.045) (xy 20.32 106.045))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 60177aea-bc00-4c98-9b4f-38e0c58caac1)
   )
 
   (wire (pts (xy 250.825 33.02) (xy 247.015 33.02))
@@ -2035,6 +2048,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9cba7531-c27b-46dc-946a-944334d03756)
   )
+  (polyline (pts (xy 19.685 106.045) (xy 95.885 106.045))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9d0f2d03-22ad-4ddc-9327-60402eb5282a)
+  )
+
   (wire (pts (xy 65.405 47.625) (xy 67.31 47.625))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a0cef925-1b2b-4bb7-a819-9ddde726cf9d)
@@ -2221,6 +2239,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e2c45d3b-f90b-4cbf-ba6e-b13cace5bc6a)
   )
+  (polyline (pts (xy 19.685 162.56) (xy 19.685 106.045))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e4f527bd-41f1-4153-9d8b-bdf15f5a8e41)
+  )
   (polyline (pts (xy 120.015 19.685) (xy 120.015 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e5d81182-c729-47d3-bafa-a1b27b651cb2)
@@ -2247,6 +2269,10 @@
     (uuid ff7107c8-cf61-4815-b42f-4bd1f21210e5)
   )
 
+  (text "Fans' Switch" (at 20.955 108.585 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 32a2a232-6feb-4969-8b18-8b1dd9d12bc6)
+  )
   (text "Mounting holes" (at 252.73 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 87dd469a-f687-4f8a-a0d0-eba56612d010)
@@ -3780,7 +3806,7 @@
       (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/b8159e12-8a01-4e18-930f-dd9f7045b4ba"
-      (reference "C7") (unit 1) (value "300uF") (footprint "footprints descargados:CAP_EEEFT1V331AP")
+      (reference "C7") (unit 1) (value "330uF") (footprint "footprints descargados:CAP_EEEFT1V331AP")
     )
     (path "/84d2dce4-bf1b-4fde-9c0b-190a062885b2"
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
@@ -3822,7 +3848,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/d7641a10-1696-479f-8ad9-c72747f4c20a"
-      (reference "J1") (unit 1) (value "12v Input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
+      (reference "J1") (unit 1) (value "12v Input") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/1790f650-74c6-4ab3-b8d8-2a95be562786"
       (reference "J2") (unit 1) (value "Fan1") (footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
@@ -3846,7 +3872,7 @@
       (reference "JP1") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/86e12817-80ac-414c-aa23-eca04293b568/53e3d8ec-12b9-4584-97a2-e1df54648bf7"
-      (reference "L1") (unit 1) (value "300uH") (footprint "footprints descargados:DR127-331_INDM125125X800N")
+      (reference "L1") (unit 1) (value "330uH") (footprint "footprints descargados:DR127-331_INDM125125X800N")
     )
     (path "/3fe79dfd-60d0-4881-a73e-44d6645bbde6"
       (reference "LS1") (unit 1) (value "CMT-7525") (footprint "footprints descargados:XDCR_CMT-7525-80-SMT-TR")

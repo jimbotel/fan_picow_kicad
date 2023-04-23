@@ -32,3 +32,4 @@ fp-info-cache
 # Gerber files
 *gerbers/*
 *.pdf
+*.xlsx
