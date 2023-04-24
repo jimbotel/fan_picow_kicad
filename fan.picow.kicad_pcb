@@ -1843,10 +1843,10 @@
       (net 44 "Net-(C2-Pad1)") (pintype "passive") (tstamp 5187f765-e80f-481f-a3fb-34212dcc0a89))
     (pad "2" smd rect locked (at 2.5 0) (size 3.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 2d8da74f-687c-4f92-a440-aa93d8e2f58f))
-    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/EXV-9H_KEM.step"
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/EEEHA1V101XP.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -3351,10 +3351,10 @@
       (net 20 "Net-(C7-Pad1)") (pintype "passive") (tstamp 72205f03-e3e7-4c13-820d-ac6235262778))
     (pad "2" smd rect locked (at 3.55 0) (size 4 2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 027538f1-d9e8-4dfc-b369-291213907039))
-    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/CAP_J-V_8X10P5_RUB.step"
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/EEE-FT1V331AP.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
