@@ -257,6 +257,11 @@
       (net 45 "Net-(C2-Pad1)") (pinfunction "1") (pintype "unspecified") (tstamp 465ce9b6-5e7f-4e95-9278-1cd21963eace))
     (pad "2" smd rect locked (at 0.925 0 180) (size 0.85 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "2") (pintype "unspecified") (tstamp 7212fe7e-4490-4706-a92c-58b16a86530d))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "digikey-footprints:0805" (layer "F.Cu")
@@ -297,6 +302,11 @@
       (net 20 "/3V3") (pintype "passive") (tstamp fa196366-3522-467a-a903-2189dad00646))
     (pad "2" smd rect locked (at 1.05 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 63 "Net-(D7-Pad2)") (pintype "passive") (tstamp ca78790f-512d-4313-89e8-fffd61af0a9d))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/LED_LGR971-KN-1-0-20-R18_OSR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_SOD-123" (layer "F.Cu")
@@ -674,6 +684,11 @@
       (net 64 "Net-(D10-Pad1)") (pintype "passive") (tstamp 28da89c6-2cb3-40db-8782-f66cf55cb6dd))
     (pad "2" smd rect locked (at 1.05 0 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 963a22e2-ef50-4d2c-9c3b-4cfce829d69f))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/LED_LGR971-KN-1-0-20-R18_OSR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" locked (layer "F.Cu")
@@ -1120,6 +1135,11 @@
     (pad "7" smd rect locked (at 3.75 0.847301) (size 0.9906 0.8128) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54bcaa18-e2d1-4062-b1a3-bccd0e2df7ea))
     (pad "8" thru_hole circle locked (at -1.5 -0.302699) (size 0.889 0.889) (drill 0.889) (layers *.Cu *.Mask) (tstamp 08ff0bef-f27f-4b94-b428-8a3c6c5fceff))
     (pad "9" thru_hole circle locked (at 1.5 -0.302699) (size 0.889 0.889) (drill 0.889) (layers *.Cu *.Mask) (tstamp 7518c745-d9d4-45d5-a71d-92ce41e89697))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/AYZ0102AGRLC.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "digikey-footprints:0805" (layer "F.Cu")
@@ -1160,6 +1180,11 @@
       (net 56 "Net-(D4-Pad1)") (pintype "passive") (tstamp b5066748-11d7-4ae7-a48d-5f4034fe4c5e))
     (pad "2" smd rect locked (at 1.05 0 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pintype "passive") (tstamp 6b285f7a-2c51-459a-ad0e-7084bccc0629))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/LED_LGR971-KN-1-0-20-R18_OSR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_SOD-123F" (layer "F.Cu")
@@ -1517,6 +1542,11 @@
       (net 57 "Net-(LS1-PadN)") (pintype "passive") (tstamp 9b7217f0-8889-464b-916b-9bbf8256318b))
     (pad "P" smd rect locked (at -3.075 -3.075 90) (size 1.8 1.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 46 "Net-(C10-Pad1)") (pintype "passive") (tstamp 14ea1a06-b5aa-410f-a8c4-ec60897a5f3a))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/CMT-7525-80-SMT-TR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -1677,6 +1707,11 @@
       (net 4 "GND") (pintype "passive") (tstamp a624fe76-83dd-4df4-8912-f469cb1b9a2b))
     (pad "4" smd rect locked (at 0 -2.44 90) (size 6.32 5.67) (layers "F.Cu" "F.Mask")
       (net 14 "/GNDFAN") (pintype "passive") (tstamp 330a1c65-d33b-4896-9b49-959740b9932f))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/LF33CDT--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (footprint "footprints descargados:CL21A106KOQNNNE" (layer "F.Cu")
@@ -1776,6 +1811,11 @@
       (net 52 "Net-(C11-Pad1)") (pinfunction "1") (pintype "unspecified") (tstamp 0f62f5da-f697-4572-86ae-8174bb015de3))
     (pad "2" smd rect locked (at 0.925 0 180) (size 0.85 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "2") (pintype "unspecified") (tstamp 07c6608b-72b1-41e2-a23a-6efa4cadbb2a))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
@@ -2506,6 +2546,11 @@
       (net 5 "/12V") (pintype "passive") (tstamp e5848854-a800-4034-8d7d-25b78b6a5f63))
     (pad "2" smd rect locked (at 1.05 0 180) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 53 "Net-(D1-Pad2)") (pintype "passive") (tstamp 9665c669-e699-40a2-8fae-e4d6e2c931d2))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/LED_LGR971-KN-1-0-20-R18_OSR.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" locked (layer "F.Cu")
@@ -3587,6 +3632,11 @@
       (net 45 "Net-(C2-Pad1)") (pinfunction "IN") (pintype "unspecified") (tstamp 5049ee71-0125-4c9e-9ce6-e2dda861e6d5))
     (pad "EPAD" smd rect locked (at 0 0 270) (size 1.8542 2.159) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "GND") (pinfunction "EPAD") (pintype "unspecified") (tstamp c888dfc0-3aaf-4490-afb0-07b5055f34b1))
+    (model "D:/Users/myria/Documents/KiCad/6.0/3dmodels/DGN0008G.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
